@@ -1,0 +1,52 @@
+/* Write your code here. */
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 10px;
+}
+.title-with-score-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+.emoji-logo {
+  width: 25px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-logo {
+    width: 50px;
+  }
+}
+.title {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+}
+.scores-container {
+  display: flex;
+}
+.score {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 25px;
+    margin-left: 32px;
+  }
+}
